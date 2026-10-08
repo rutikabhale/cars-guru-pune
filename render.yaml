@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: cars-guru-pune
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: JWT_SECRET
+        generateValue: true

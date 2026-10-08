@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "email": "admin@carsguru.local",
+    "passwordHash": "$2a$10$8aQjz6nJQ8uYJQ8kqJQ9UeW4w7pH8Y4YVqQn3c0V7s5VYq1w5Zp3u",
+    "legacyDemoPasswordEnabled": true
+  },
+  "cars": [
+    {
+      "id": "cg-001",
+      "name": "Mercedes-Benz C-Class",
+      "year": 2022,
+      "km": 28400,
+      "fuel": "Petrol",
+      "gear": "Automatic",
+      "body": "SEDAN",
+      "price": "₹34.90 L",
+      "colour": "Obsidian Black",
+      "owners": 1,
+      "engine": "1991 cc",
+      "location": "Pune",
+      "description": "Premium automatic sedan in excellent condition.",
+      "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1000&q=85",
+      "tag": "PREMIUM",
+      "status": "Available",
+      "featured": true,
+      "images": [
+        "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1000&q=85"
+      ],
+      "discount": ""
+    },
+    {
+      "id": "cg-002",
+      "name": "BMW X1",
+      "year": 2021,
+      "km": 35200,
+      "fuel": "Diesel",
+      "gear": "Automatic",
+      "body": "SUV",
+      "price": "₹29.75 L",
+      "colour": "Alpine White",
+      "owners": 1,
+      "engine": "1995 cc",
+      "location": "Pune",
+      "description": "Premium SUV with automatic transmission.",
+      "image": "https://images.unsplash.com/photo-1556189250-72ba954cfc2b?auto=format&fit=crop&w=1000&q=85",
+      "tag": "FEATURED",
+      "status": "Available",
+      "featured": true,
+      "images": [
+        "https://images.unsplash.com/photo-1556189250-72ba954cfc2b?auto=format&fit=crop&w=1000&q=85"
+      ],
+      "discount": ""
+    },
+    {
+      "id": "cg-003",
+      "name": "Honda City",
+      "year": 2023,
+      "km": 18700,
+      "fuel": "Petrol",
+      "gear": "Automatic",
+      "body": "SEDAN",
+      "price": "₹12.90 L",
+      "colour": "Platinum White",
+      "owners": 1,
+      "engine": "1498 cc",
+      "location": "Pune",
+      "description": "Low-kilometre city sedan.",
+      "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1000&q=85",
+      "tag": "LOW KM",
+      "status": "Available",
+      "featured": false,
+      "images": [
+        "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1000&q=85"
+      ],
+      "discount": ""
+    }
+  ],
+  "enquiries": [
+    {
+      "id": "lead-001",
+      "name": "Demo Customer",
+      "phone": "+91 98765 43210",
+      "car": "BMW X1",
+      "message": "Interested in the BMW X1",
+      "status": "New",
+      "createdAt": "2026-10-07T10:30:00.000Z"
+    },
+    {
+      "id": "lead-002",
+      "name": "Demo Buyer",
+      "phone": "+91 91234 56789",
+      "car": "Honda City",
+      "message": "Please share more photos and final price.",
+      "status": "Contacted",
+      "createdAt": "2026-10-06T14:15:00.000Z"
+    }
+  ]
+}

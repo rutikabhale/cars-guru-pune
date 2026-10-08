@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cars Guru Pune | Premium Pre-Owned Cars</title>
+<meta name="description" content="Cars Guru Pune — trusted multi-brand pre-owned cars at affordable prices. Explore premium pre-owned cars and enquire on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="topbar"><div class="container topbar-in"><span>🚗 Pune's trusted multi-brand pre-owned car destination</span><a href="https://wa.me/919923113211" target="_blank">WhatsApp us instantly →</a></div></div>
+
+<header class="header">
+  <div class="container nav">
+    <a class="logo" href="#home"><img src="assets/cars-guru-logo.jpg"><span><b>CARS GURU</b><small>PUNE</small></span></a>
+    <nav>
+      <a href="#inventory">Inventory</a><a href="#process">How it works</a><a href="#why">Why us</a><a href="#reviews">Reviews</a><a href="#visit">Visit us</a>
+    </nav>
+    <a class="admin-link" href="/admin" title="Admin Login"><span class="lock">🔐</span> Admin Login</a><a class="nav-cta" href="https://wa.me/919923113211?text=Hi%20Cars%20Guru%2C%20I%27m%20looking%20for%20a%20pre-owned%20car." target="_blank">Talk to us <span>↗</span></a>
+    <button class="menu" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+  </div>
+<div class="mobile-menu" id="mobileMenu"><div class="mobile-menu-head"><b>MENU</b><button id="menuClose" aria-label="Close menu">×</button></div><a href="#inventory">🚗 Inventory</a><a href="#process">✦ How it works</a><a href="#why">✓ Why us</a><a href="#reviews">★ Reviews</a><a href="#visit">📍 Visit us</a><a href="/admin">🔐 Admin Login</a><a class="mobile-menu-wa" href="https://wa.me/919923113211?text=Hi%20Cars%20Guru%2C%20I%27m%20looking%20for%20a%20pre-owned%20car." target="_blank">WhatsApp us ↗</a></div></header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-media"></div>
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <div class="pill">TRUSTED PRE-OWNED CARS · PUNE</div>
+    <h1>The right car.<br><em>The right deal.</em></h1>
+    <p>Premium multi-brand pre-owned cars, carefully presented and priced for people who know what they want.</p>
+    <div class="actions"><a class="btn red" href="#inventory">Browse available cars <b>→</b></a><a class="btn glass" href="https://wa.me/919923113211?text=Hi%20Cars%20Guru%2C%20please%20help%20me%20find%20a%20car." target="_blank">Find my car on WhatsApp</a></div>
+    <div class="trust-row"><span><b>403K+</b> Instagram community</span><span><b>2,200+</b> posts & showcases</span><span><b>Multi-brand</b> selection</span></div>
+  </div>
+  <div class="scroll">SCROLL TO EXPLORE <span>↓</span></div>
+</section>
+
+<section class="marquee"><div>QUALITY · VALUE · TRUST · QUALITY · VALUE · TRUST · QUALITY · VALUE · TRUST ·</div></section>
+
+<section class="inventory-tools"><label>Budget <select id="budget"><option value="all">Any budget</option><option value="5">Under ₹5L</option><option value="10">Under ₹10L</option><option value="15">Under ₹15L</option><option value="25">Under ₹25L</option></select></label><label>Sort <select id="sort"><option value="new">Newest</option><option value="priceLow">Price: Low → High</option><option value="priceHigh">Price: High → Low</option><option value="km">Lowest KM</option></select></label></section><section id="inventory" class="section inventory reveal">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="kicker">OUR SHOWROOM, ONLINE</div><h2>Cars people actually want.</h2><p>Browse a sample of our current-style inventory. Real stock can be updated here daily.</p></div>
+      <a class="outline" href="https://www.instagram.com/cars_guru_pune/" target="_blank">See latest stock on Instagram ↗</a>
+    </div>
+    <div class="searchbar pro-search"><div class="search"><span>⌕</span><input id="search" placeholder="Search BMW, Honda, SUV, colour…"></div><div class="selects"><select id="body"><option value="all">Body type</option><option>SUV</option><option>SEDAN</option><option>HATCHBACK</option><option>MPV</option><option>COUPE</option></select><select id="fuel"><option value="all">Fuel</option><option>Petrol</option><option>Diesel</option><option>CNG</option><option>Electric</option><option>Hybrid</option></select><select id="gear"><option value="all">Transmission</option><option>Automatic</option><option>Manual</option></select><select id="year"><option value="all">Year</option><option value="2024">2024+</option><option value="2022">2022+</option><option value="2020">2020+</option><option value="2018">2018+</option></select></div></div><div class="filter-chips"><button class="chip active" data-filter="all">All cars</button><button class="chip" data-filter="featured">★ Featured</button><button class="chip" data-filter="automatic">Automatic</button><button class="chip" data-filter="lowkm">Low KM</button><span id="resultCount"></span></div>
+    <div class="inventory-grid" id="cars"></div>
+    <div class="center"><button class="outline" id="showAll">View all cars →</button></div>
+  </div>
+</section>
+
+<section id="process" class="dark reveal">
+  <div class="container">
+    <div class="section-head light-head"><div><div class="kicker">A SIMPLE WAY TO BUY</div><h2>From scroll to steering wheel.</h2></div><span class="side-note">No complicated process.<br>Just a better car-buying experience.</span></div>
+    <div class="steps">
+      <div><span>01</span><h3>Tell us what you want</h3><p>Budget, brand, fuel, body type — send your requirement on WhatsApp.</p></div>
+      <div><span>02</span><h3>Shortlist your car</h3><p>Our team helps you compare available cars and choose the right fit.</p></div>
+      <div><span>03</span><h3>Inspect & experience</h3><p>Visit the showroom, see the car in person and take the next step confidently.</p></div>
+      <div><span>04</span><h3>Drive it home</h3><p>Complete the paperwork and get behind the wheel of your next car.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="why" class="section why reveal">
+  <div class="container why-grid">
+    <div class="why-photo"><div class="photo-card"><span>400K+</span><small>people following<br>Cars Guru online</small></div></div>
+    <div>
+      <div class="kicker">WHY CARS GURU</div><h2>A dealership built around <span>trust.</span></h2>
+      <p class="lead">Buying a pre-owned car should feel exciting — not uncertain. We keep the experience direct, transparent and customer-first.</p>
+      <div class="checks">
+        <div><b>✓</b><span><strong>Multi-brand choice</strong><small>Find different brands and segments under one roof.</small></span></div>
+        <div><b>✓</b><span><strong>Value-driven deals</strong><small>Get a car that makes sense for your budget.</small></span></div>
+        <div><b>✓</b><span><strong>Direct communication</strong><small>Quick answers through phone and WhatsApp.</small></span></div>
+        <div><b>✓</b><span><strong>Pune-based team</strong><small>Visit the showroom and experience the car yourself.</small></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews" class="section reviews-section reveal">
+ <div class="container">
+  <div class="section-head"><div><div class="kicker">CUSTOMER STORIES</div><h2>Good cars. Better memories.</h2></div><div class="stars">★★★★★ <small>Cars Guru customers</small></div></div>
+  <div class="review-grid">
+   <article><div class="quote">“</div><p>The team made the process easy and helped me understand my options without unnecessary pressure.</p><footer>— Recent Pune customer</footer></article>
+   <article><div class="quote">“</div><p>Good collection and quick responses. The WhatsApp communication was especially convenient.</p><footer>— Recent buyer</footer></article>
+   <article><div class="quote">“</div><p>Found the kind of car I was looking for and had a smooth showroom experience.</p><footer>— Cars Guru customer</footer></article>
+  </div>
+ </div>
+</section>
+
+<section class="instagram reveal">
+ <div class="container insta-grid">
+  <div><div class="kicker">FOLLOW THE JOURNEY</div><h2>See the latest cars<br><span>before they leave.</span></h2><p>Cars Guru already has a huge audience on Instagram. Turn every Reel and enquiry into a direct path to your inventory.</p><a class="btn red" href="https://www.instagram.com/cars_guru_pune/" target="_blank">Open @cars_guru_pune ↗</a></div>
+  <div class="reel-grid"><div class="reel r1">NEW<br><b>STOCK</b></div><div class="reel r2">₹<b>3.00</b><small>LAKHS</small></div><div class="reel r3">JUST<br><b>ARRIVED</b></div><div class="reel r4">SOLD<br><b>HAPPY</b></div></div>
+ </div>
+</section>
+
+<section id="visit" class="visit reveal">
+ <div class="container visit-box">
+  <div><div class="kicker">COME SEE US</div><h2>Your next car<br>could be here.</h2><p>Cars Guru, Pune, Maharashtra 411041</p></div>
+  <div class="visit-actions"><a class="btn red" href="https://wa.me/919923113211?text=Hi%20Cars%20Guru%2C%20I%27d%20like%20to%20visit%20the%20showroom." target="_blank">Plan my visit</a><a class="phone" href="tel:+919923113211">+91 99231 13211</a></div>
+ </div>
+</section>
+
+<section class="emi reveal"><div class="container"><div class="emi-box"><div class="kicker">PLAN YOUR PURCHASE</div><h2>Estimate your monthly EMI.</h2><div class="emi-grid"><label>Car price (₹ lakh)<input id="emiCar" value="15"></label><label>Interest rate %<input id="rate" value="9"></label><label>Tenure (months)<input id="months" value="60"></label><button id="emiBtn">Calculate EMI</button></div><div id="emiResult" class="emi-result">Enter details and calculate.</div></div></div></section>
+<div class="detail-modal" id="carModal"><div class="detail-card"><button class="detail-close" id="closeCar">×</button><div class="detail-content" id="detail"></div></div></div>
+<div class="compare-bar" id="compareBar"><div><b>Compare cars</b><span id="compareItems"></span></div><div class="compare-bar-actions"><small id="compareCount">0/3</small><button id="compareOpen">Compare selected</button></div></div>
+<div class="detail-modal" id="compareModal"><div class="compare-card"><button class="detail-close" id="compareClose">×</button><div class="kicker">SMART SHOPPING</div><h2>Compare your shortlist.</h2><p class="compare-intro">See the important differences side-by-side before you decide.</p><div id="compareContent"></div></div></div>
+</main>
+
+<footer><div class="container footer"><div class="footer-brand"><img src="assets/cars-guru-logo.jpg"><div><b>CARS GURU</b><small>Trusted multi-brand pre-owned cars · Pune</small></div></div><div class="footer-links"><a href="#inventory">Inventory</a><a href="#why">Why us</a><a href="#visit">Contact</a><a href="https://www.instagram.com/cars_guru_pune/" target="_blank">Instagram</a><a href="/admin">🔐 Admin Login</a></div><div class="copyright">© 2026 Cars Guru Pune · Demo</div></div></footer>
+
+<a class="float-wa" href="https://wa.me/919923113211?text=Hi%20Cars%20Guru%2C%20I%27m%20interested%20in%20your%20cars." target="_blank" aria-label="WhatsApp Cars Guru">◉</a><div class="mobile-bar"><a href="tel:+919923113211">☎ Call Cars Guru</a><a href="https://wa.me/919923113211" target="_blank">WhatsApp</a></div>
+<div class="modal" id="modal"><div class="modal-card"><button id="close">×</button><div class="kicker">CAR ENQUIRY</div><h2 id="modalTitle">Interested in this car?</h2><p>We'll take your requirement straight to the Cars Guru WhatsApp team.</p><a id="modalLink" class="btn red full" target="_blank">Continue on WhatsApp →</a></div></div>
+<script src="script.js"></script>
+</body>
+</html>
